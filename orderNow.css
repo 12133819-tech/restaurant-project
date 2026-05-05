@@ -1,0 +1,68 @@
+body{
+    position: relative;
+    background-color: rgba(169, 60, 26, 0.679);
+    z-index: 1;
+}
+
+.order {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    z-index: 2;
+    height: 500px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.error {
+    color: red;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+button{
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity {
+        display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: 35px;
+}
+
+.error2 {
+    color: red;
+}
